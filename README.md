@@ -39,7 +39,7 @@ class AcceptInvite
 end
 
 AcceptInvite.call(invite, user)
-```ruby
+```
 
 ### Splatter
 
