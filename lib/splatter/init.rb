@@ -8,7 +8,7 @@ module Splatter
     module ClassMethods
       def splat(*args)
         if args.empty?
-          @splatter_args
+          @splatter_args || [ ]
         else
           @splatter_args = args
         end
