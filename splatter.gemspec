@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Vincent Roy"]
   spec.email         = ["vincentroy8@gmail.com"]
   spec.summary       = %q{Expand constructor arguments to instance variables base on `splat`.}
-  spec.homepage      = "https://github.com/exploid/splatter"
+  spec.homepage      = "https://github.com/vroy/splatter"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
